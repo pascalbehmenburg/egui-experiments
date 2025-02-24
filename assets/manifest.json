@@ -1,6 +1,6 @@
 {
-  "name": "egui Template PWA",
-  "short_name": "egui-template-pwa",
+  "name": "electricity",
+  "short_name": "electricity",
   "icons": [
     {
       "src": "./assets/icon-256.png",
