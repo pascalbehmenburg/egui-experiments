@@ -9,25 +9,6 @@ The goal is for this to be the simplest way to get started writing a GUI app in 
 
 You can compile your app natively or for the web, and share it using Github Pages.
 
-## Getting started
-
-Start by clicking "Use this template" at https://github.com/emilk/electricity/ or follow [these instructions](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-
-Change the name of the crate: Choose a good name for your project, and change the name to it in:
-* `Cargo.toml`
-    * Change the `package.name` from `electricity` to `your_crate`.
-    * Change the `package.authors`
-* `main.rs`
-    * Change `electricity::TemplateApp` to `your_crate::TemplateApp`
-* `index.html`
-    * Change the `<title>eframe template</title>` to `<title>your_crate</title>`. optional.
-* `assets/sw.js`
-  * Change the `'./electricity.js'` to `./your_crate.js` (in `filesToCache` array)
-  * Change the `'./electricity_bg.wasm'` to `./your_crate_bg.wasm` (in `filesToCache` array)
-
-Alternatively, you can run `fill_template.sh` which will ask for the needed names and email and perform the above patches for you. This is particularly useful if you clone this repository outside GitHub and hence cannot make use of its
-templating function.
-
 ### Learning about egui
 
 `src/app.rs` contains a simple example app. This is just to give some inspiration - most of it can be removed if you like.

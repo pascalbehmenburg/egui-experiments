@@ -1,4 +1,4 @@
-var cacheName = "egui-template-pwa";
+var cacheName = "electricity";
 var filesToCache = [
   "./",
   "./index.html",
